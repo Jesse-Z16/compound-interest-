@@ -1,0 +1,22 @@
+# Exam grade program
+
+# -------------------------
+# Subprograms
+# -------------------------
+balance = int(input('Enter balance to the nearest pound:   '))
+interest_rate = float(input('Enter interest rate:   '))
+target_balance = int(input('Enter your targey balance'))
+
+def compund(interest_rate , balance , target_balance):
+  while balance < target_balance:
+   year = 1 
+    interest_rate == interest_rate/100
+    interest = balance * interest_rate
+    balance == int(balance + interest)
+  year == year + 1
+
+
+# -------------------------
+# Main program
+# -------------------------
+print('year', year, 'balance £', balance,)
